@@ -1,11 +1,11 @@
 # linuxHotspot
 Enabling hotspot for linux.
-> I made this custom script to fix hostapd failure.
-> It shows this message: "handle_probe_req: send failed".
-> After little debugging, I found that the interface keeps down time to time.
-> It required me to restart the hostapd server each time the interface down.
-> So I create a loop to check if hostapd still running fine, if not the restart hostapd again.
-> There may be another issues but this works fine for now :)
+> * I made this custom script to fix hostapd failure.
+> * It shows this message: "handle_probe_req: send failed".
+> * After little debugging, I found that the interface keeps down time to time.
+> * It required me to restart the hostapd server each time the interface down.
+> * So I create a loop to check if hostapd still running fine, if not the restart hostapd again.
+> * There may be another issues but this works fine for now :)
 
 ## Setup:
 * Install requirement
